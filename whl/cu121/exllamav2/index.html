@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirect Link</title>
+    <script>
+        function redirectLink(event, newUrl) {
+            event.preventDefault(); // Prevent the default link behavior
+            window.location.href = newUrl; // Redirect to the new URL
+        }
+    </script>
+</head>
+<body>
+    <a href="exllamav2-0.1.8+cu121.torch2.3.1-cp311-cp311-win_amd64.whl" onclick="redirectLink(event, 'https://github.com/turboderp/exllamav2/releases/download/v0.1.8/exllamav2-0.1.8+cu121.torch2.3.1-cp311-cp311-win_amd64.whl')">exllamav2-0.1.8+cu121.torch2.3.1-cp311-cp311-win_amd64.whl</a>
+</body>
+</html>
